@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF9FC"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="411dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginBottom="679dp"
+        app:cardBackgroundColor="#FEB884"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/text_inventory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Inventory"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/text_inventoryWebsite"
+        android:layout_width="174dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="585dp"
+        android:fontFamily="@font/poppins"
+        android:text="Inventory Website"
+        android:textColor="#FDB783"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_sanataDharma"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="559dp"
+        android:fontFamily="@font/poppins"
+        android:text="Sanata Dharma"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_usd"
+        android:layout_width="252dp"
+        android:layout_height="269dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="270dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/usd_2" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="620dp"
+        android:layout_marginBottom="0dp"
+        app:cardBackgroundColor="#F4EDED">
+
+        <TextView
+            android:id="@+id/text_inventoryWebsite2"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="637dp"
+            android:fontFamily="@font/poppins"
+            android:text="Inventory Website"
+            android:textColor="#FDB783"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_usd2"
+            android:layout_width="77dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/usd" />
+
+        <TextView
+            android:id="@+id/text_sanataDharma2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/poppins"
+            android:text="Sanata Dharma"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins"
+            android:text="Contact Us "
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/poppins"
+            android:text="Email : humas@usd.ac.id"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/poppins"
+            android:text="Phone : (0274) 513301, 515352"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/image_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="178dp"
+        android:background="#FCF8FB"
+        android:contentDescription="Next button"
+        app:srcCompat="@drawable/next" />
+
+</RelativeLayout>
